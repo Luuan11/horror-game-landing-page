@@ -78,8 +78,14 @@ main{
     background-color: var(--text-color-prim);
     color: var(--text-color-seg);
     text-decoration: none;
+    
     opacity: 1;
 }
+
+.links .btn-read-more{
+    transition: background .2s;
+}
+
 
 .links .btn-read-more:hover{
     background-color: var(--text-color-prim);
